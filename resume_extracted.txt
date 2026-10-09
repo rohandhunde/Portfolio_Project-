@@ -1,0 +1,70 @@
+PROFESSIONAL SUMMARY
+AI/ML Engineer with 3+ years of experience building and deploying production Generative AI, Agentic AI, and 
+traditional ML systems. Skilled in RAG architectures, LLM fine-tuning and serving, multimodal AI (OCR, speech-to-
+text), and FastAPI-based backends. Experienced in LLM evaluation, access control, and prompt-injection defense 
+for secure, reliable AI products.
+TECHNICAL SKILLS
+• Languages & Frameworks: Python, Async Python (asyncio), SQL, FastAPI, LangChain, LangGraph
+• ML / DL: PyTorch, TensorFlow, Keras, Scikit-Learn, NumPy, Pandas, Hugging Face, Transformers (GPT, 
+BERT, T5), CNN, RNN, YOLO, Computer Vision, NLP, Transfer Learning
+• Classical Machine Learning: Supervised Learning (Linear Regression, Logistic Regression, SVM, Naive 
+Bayes, Decision Tree, Random Forest), Boosting (AdaBoost, Gradient Boosting, XGBoost, LightGBM, 
+CatBoost), Unsupervised Learning (K-Means, Hierarchical Clustering), Dimensionality Reduction (PCA), 
+Regularization (Lasso, Ridge, Elastic Net), Classification Metrics (Accuracy, Precision, Recall, F1-Score, ROC-
+AUC, Confusion Matrix), Regression Metrics (MSE, RMSE, MAE, R-Squared, Adjusted R-Squared), Validation 
+& Tuning (Cross-Validation, GridSearchCV)
+• Generative AI: LLMs, RAG, Fine-Tuning (LoRA, QLoRA), Prompt Engineering, OpenAI API, MCP (Model 
+Context Protocol), STT, TTS, OCR (PyTesseract)
+• Vector & Relational Databases: FAISS, Pinecone, Weaviate, Milvus, PostgreSQL, MySQL, ClickHouse, Data 
+Modeling, Data Warehousing
+• LLM Serving & Optimization: vLLM (continuous batching), Prompt Caching, Model Optimization
+• Evaluation & Safety: LangSmith, Ragas (faithfulness, answer relevancy, context precision/recall), 
+Hallucination Mitigation, Prompt-Injection Defense, RBAC
+• Cloud & DevOps: AWS (EC2, S3, Lambda, RDS), Docker, CI/CD, REST API Deployment, Git, GitHub
+• Analytics & BI: Power BI, Tableau, Matplotlib, Seaborn, Statistical Analysis
+PROFESSIONAL EXPERIENCE
+AI/ML Developer | THS Systems | Apr 2025 – Present
+• Designed and deployed RAG systems on vector databases (FAISS, Pinecone, Weaviate, Milvus) for 
+knowledge retrieval, evaluation, and automated scheduling.
+• Built a multimodal RAG data lake (PDF, Excel, audio, images) with chunking, embeddings, and grounded LLM 
+retrieval, unifying SQL and vector search under RBAC-enforced access control.
+• Developed an OCR + RAG + LLM pipeline that auto-grades handwritten answer sheets against SQL-stored 
+rubrics using a MultiQuery Retriever, with LangSmith tracing and rubric-grounded output validation.
+• Hardened LLM-facing endpoints against prompt injection, including indirect injection from retrieved documents, 
+using input/output filtering and tool-scope restrictions layered on RBAC.
+• Built a WebSocket-based real-time conversation intelligence platform that generates meeting minutes and 
+clinical summaries through a configurable LLM API.
+• Automated SQL-to-government-portal data entry with AI-driven Playwright MCP browser agents.
+• Built an HRMS resume-shortlisting system that ranks candidates using semantic embeddings and LLM-based 
+scoring.
+• Developed FastAPI backends for front-end integration and collaborated cross-functionally to productionize AI 
+healthcare solutions with SQL-based data management.
+Data Scientist | 4ibiz Technosolution | Sep 2023 – Apr 2025
+• Developed Generative and traditional AI models, including LLM fine-tuning (LoRA, QLoRA) and RAG, to 
+automate workflows and improve efficiency.
+• Delivered insights from large AWS RDS datasets through Python, Excel, and embedded Power BI dashboards.
+• Automated customer support with AI chatbots, improving response consistency.
+SELECTED PROJECTS
+• Multimodal Data Lake & RAG System: Ingestion, chunking, embeddings, and semantic retrieval across PDF, 
+Excel, CSV, PPT, email, audio, and image data. Includes a natural-language SQL query chain, RBAC, 
+response validation, and vector lifecycle management.
+• Civic Issue Management & Complaint Routing: Multimodal (text, image, audio) system that classifies 
+complaints, extracts key information, and routes them automatically to the responsible departments.
+• Handwritten Answer Sheet Evaluation: End-to-end OCR → retrieval → LLM evaluation → marks assignment 
+workflow supporting MCQ, short-answer, and long-answer formats.
+ROHAN DHUNDE
+AI / ML Engineer | Generative AI | Agentic AI | NLP
+Pune, India | +91-95886-89602 | rohandhunde5@gmail.com
+https://www.linkedin.com/in/rohandhunde/ | https://github.com/rohandhunde?tab=repositories
+
+• Document Scanning & Information Extraction: Camera-based pipeline for ID documents (Aadhaar, PAN, 
+driving license, passport) using PyTesseract with tuned PSM modes, field extraction, validation, and JSON 
+output.
+• Help Desk Chatbot: RAG chatbot over scraped website data in FAISS, with source-URL attribution in 
+answers.
+• Feedback Generation & Sentiment Analysis: NLP pipeline that generates feedback forms, consolidates 
+responses, classifies sentiment (positive, negative, neutral), and produces AI summaries.
+• Career & Stream Recommendation System: Personalized recommendations for Class 9–12 students based 
+on academics, interests, and career goals.
+EDUCATION
+Bachelor of Computer Science, University of Amaravati, India | 2019 – 2022 | CGPA: 7.9
