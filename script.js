@@ -1,16 +1,9 @@
+import { inject } from '@vercel/analytics';
+
 document.documentElement.classList.add('js');
 
-// Vercel serves this tracking script after Web Analytics is enabled.
-// Keep local development visits out of the production visitor counts.
-if (window.location.hostname === 'portfolioproject-coral-xi.vercel.app') {
-  window.va = window.va || function () {
-    (window.vaq = window.vaq || []).push(arguments);
-  };
-  const analyticsScript = document.createElement('script');
-  analyticsScript.defer = true;
-  analyticsScript.src = '/_vercel/insights/script.js';
-  document.head.appendChild(analyticsScript);
-}
+// Initialize Vercel Web Analytics
+inject();
 
 const header = document.querySelector('[data-header]');
 const navToggle = document.querySelector('.nav-toggle');
