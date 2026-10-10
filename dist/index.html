@@ -41,7 +41,7 @@
     <header class="site-header" data-header>
       <div class="nav-shell">
         <a href="#top" class="brand" aria-label="Rohan Dhunde home">
-          <span class="brand-mark" aria-hidden="true">RD</span>
+          <img class="brand-mark brand-portrait" src="assets/rohan-dhunde.jpg" width="40" height="40" alt="" aria-hidden="true" />
           <span class="brand-name">Rohan Dhunde</span>
         </a>
         <nav id="main-navigation" class="main-nav" aria-label="Main navigation">
@@ -65,8 +65,8 @@
             <h1>I turn complex data into <span>AI that works.</span></h1>
             <p class="hero-lead">I design secure, production-ready intelligence—from grounded RAG and multimodal pipelines to agentic systems and machine learning APIs.</p>
             <div class="cta-row">
-              <a class="button button-primary" href="#projects">Explore selected work <span aria-hidden="true">↘</span></a>
-              <a class="button button-glass" href="mailto:rohandhunde5@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
+              <a class="button button-primary" href="#projects">View Projects <span aria-hidden="true">&#8600;</span></a>
+              <a class="button button-glass" href="assets/rohan-dhunde-resume.pdf" download="Rohan-Dhunde-Resume.pdf">Download Resume <span aria-hidden="true">&#8595;</span></a>
             </div>
             <ul class="hero-proof" aria-label="Professional highlights">
               <li><strong>3+</strong><span>years building AI systems</span></li>
@@ -165,23 +165,43 @@
 
       <section id="projects" class="section projects-section" data-section>
         <div class="container">
-          <header class="section-heading project-heading" data-reveal><div><p class="section-kicker"><span>04</span> Selected work</p><h2>AI designed around <span>real decisions.</span></h2></div><p>Eight applied AI systems spanning retrieval, automation, conversation intelligence, document understanding, civic workflows, and education.</p></header>
+          <header class="section-heading project-heading" data-reveal><div><p class="section-kicker"><span>04</span> Selected work</p><h2>AI designed around <span>real decisions.</span></h2></div><p>Nine applied AI systems spanning retrieval, automation, conversation intelligence, healthcare access, civic workflows, and education.</p></header>
           <div class="project-showcase">
             <article class="project project-featured" data-reveal data-spotlight>
-              <div class="project-index">01 / 08</div>
+              <div class="project-index">01 / 09</div>
               <div class="project-copy"><p class="project-label">Flagship · Multimodal RAG</p><h3>One intelligence layer across every kind of business data.</h3><p>Ingestion, chunking, embeddings, and semantic retrieval across PDF, Excel, CSV, presentations, email, audio, and imagery.</p><ul class="project-tech"><li>Natural-language SQL</li><li>RBAC</li><li>Vector lifecycle</li><li>Response validation</li></ul></div>
               <div class="project-visual" aria-hidden="true">
                 <div class="data-stack"><span>PDF</span><span>SQL</span><span>AUDIO</span><span>IMAGE</span></div><div class="data-core"><i></i><strong>RAG</strong><small>grounded retrieval</small></div>
                 <svg viewBox="0 0 420 320"><path d="M72 55 C145 40 140 155 210 160"/><path d="M72 125 C150 120 150 155 210 160"/><path d="M72 195 C145 198 155 165 210 160"/><path d="M72 265 C150 280 150 170 210 160"/><path d="M210 160 C286 158 293 89 360 89"/><path d="M210 160 C286 162 293 231 360 231"/></svg><div class="output-pills"><span>ANSWER</span><span>SOURCE</span></div>
               </div>
             </article>
-            <article class="project" data-reveal data-spotlight><div class="project-index">02 / 08</div><p class="project-label">Civic AI</p><h3>Civic Issue Management &amp; Complaint Routing</h3><p>Analyzes text, image, and audio complaints, extracts key information, and routes each issue to the responsible department and person.</p><ul class="project-tech"><li>Multimodal classification</li><li>Department mapping</li><li>Automated routing</li></ul></article>
-            <article class="project" data-reveal data-spotlight><div class="project-index">03 / 08</div><p class="project-label">Education AI</p><h3>Handwritten Answer Sheet Evaluation</h3><p>Extracts handwritten responses page by page, retrieves SQL-stored questions and rubrics, then evaluates and assigns marks across multiple answer formats.</p><ul class="project-tech"><li>PyTesseract</li><li>MultiQuery Retriever</li><li>Rubric validation</li></ul></article>
-            <article class="project" data-reveal data-spotlight><div class="project-index">04 / 08</div><p class="project-label">Agentic Automation</p><h3>Government Portal Automation with Playwright MCP</h3><p>Transfers structured SQL data into multiple government portals through AI-driven navigation, field mapping, form filling, data entry, and submission workflows.</p><ul class="project-tech"><li>Playwright MCP</li><li>SQL</li><li>Browser agents</li></ul></article>
-            <article class="project project-wide" data-reveal data-spotlight><div class="project-index">05 / 08</div><p class="project-label">Conversation Intelligence</p><h3>Real-Time AI Note-Taking &amp; Clinical Summary Platform</h3><p>Streams conversations through WebSockets, stores transcripts in SQL, and uses a configurable LLM API to produce meeting minutes, action items, or structured doctor-patient summaries from the same pipeline.</p><ul class="project-tech"><li>WebSockets</li><li>Speech to text</li><li>Configurable LLM API</li><li>SQL sessions</li></ul></article>
-            <article class="project" data-reveal data-spotlight><div class="project-index">06 / 08</div><p class="project-label">Support AI</p><h3>Attribution-aware Help Desk Chatbot</h3><p>Scrapes and indexes website content in FAISS, retrieves relevant context semantically, and returns grounded answers with source-URL attribution.</p><ul class="project-tech"><li>FAISS</li><li>Web scraping</li><li>Source grounding</li></ul></article>
-            <article class="project" data-reveal data-spotlight><div class="project-index">07 / 08</div><p class="project-label">Document Intelligence</p><h3>Document Scanning &amp; Information Extraction</h3><p>Extracts structured fields from Aadhaar cards, PAN cards, driving licences, passports, and admit cards while adapting OCR segmentation to different layouts.</p><ul class="project-tech"><li>PyTesseract</li><li>PSM 6 / 7 / 11</li><li>Field extraction</li></ul></article>
-            <article class="project project-wide" data-reveal data-spotlight><div class="project-index">08 / 08</div><p class="project-label">Recommendation AI</p><h3>Career &amp; Academic Stream Recommendation System</h3><p>Combines academic performance, subject-level results, interests, preferences, and long-term goals to recommend personalized Science, Commerce, or Arts/Humanities pathways for Class 9–12 students.</p><ul class="project-tech"><li>Personalized ranking</li><li>Academic profiling</li><li>Career alignment</li></ul></article>
+            <article class="project" data-reveal data-spotlight><div class="project-index">02 / 09</div><p class="project-label">Civic AI</p><h3>Civic Issue Management &amp; Complaint Routing</h3><p>Analyzes text, image, and audio complaints, extracts key information, and routes each issue to the responsible department and person.</p><ul class="project-tech"><li>Multimodal classification</li><li>Department mapping</li><li>Automated routing</li></ul></article>
+            <article class="project" data-reveal data-spotlight><div class="project-index">03 / 09</div><p class="project-label">Education AI</p><h3>Handwritten Answer Sheet Evaluation</h3><p>Extracts handwritten responses page by page, retrieves SQL-stored questions and rubrics, then evaluates and assigns marks across multiple answer formats.</p><ul class="project-tech"><li>PyTesseract</li><li>MultiQuery Retriever</li><li>Rubric validation</li></ul></article>
+            <article class="project" data-reveal data-spotlight><div class="project-index">04 / 09</div><p class="project-label">Agentic Automation</p><h3>Government Portal Automation with Playwright MCP</h3><p>Transfers structured SQL data into multiple government portals through AI-driven navigation, field mapping, form filling, data entry, and submission workflows.</p><ul class="project-tech"><li>Playwright MCP</li><li>SQL</li><li>Browser agents</li></ul></article>
+            <article class="project project-wide" data-reveal data-spotlight><div class="project-index">05 / 09</div><p class="project-label">Conversation Intelligence</p><h3>Real-Time AI Note-Taking &amp; Clinical Summary Platform</h3><p>Streams conversations through WebSockets, stores transcripts in SQL, and uses a configurable LLM API to produce meeting minutes, action items, or structured doctor-patient summaries from the same pipeline.</p><ul class="project-tech"><li>WebSockets</li><li>Speech to text</li><li>Configurable LLM API</li><li>SQL sessions</li></ul></article>
+            <article class="project" data-reveal data-spotlight><div class="project-index">06 / 09</div><p class="project-label">Support AI</p><h3>Attribution-aware Help Desk Chatbot</h3><p>Scrapes and indexes website content in FAISS, retrieves relevant context semantically, and returns grounded answers with source-URL attribution.</p><ul class="project-tech"><li>FAISS</li><li>Web scraping</li><li>Source grounding</li></ul></article>
+            <article class="project" data-reveal data-spotlight><div class="project-index">07 / 09</div><p class="project-label">Document Intelligence</p><h3>Document Scanning &amp; Information Extraction</h3><p>Extracts structured fields from Aadhaar cards, PAN cards, driving licences, passports, and admit cards while adapting OCR segmentation to different layouts.</p><ul class="project-tech"><li>PyTesseract</li><li>PSM 6 / 7 / 11</li><li>Field extraction</li></ul></article>
+            <article class="project project-wide" data-reveal data-spotlight><div class="project-index">08 / 09</div><p class="project-label">Recommendation AI</p><h3>Career &amp; Academic Stream Recommendation System</h3><p>Combines academic performance, subject-level results, interests, preferences, and long-term goals to recommend personalized Science, Commerce, or Arts/Humanities pathways for Class 9–12 students.</p><ul class="project-tech"><li>Personalized ranking</li><li>Academic profiling</li><li>Career alignment</li></ul></article>
+            <article class="project project-teleconsultation" data-reveal data-spotlight>
+              <div class="project-index">09 / 09</div>
+              <div class="project-copy">
+                <p class="project-label">Healthcare AI &middot; WhatsApp</p>
+                <h3>MSBD &ndash; AI-Powered WhatsApp Teleconsultation Platform</h3>
+                <p>Brings registration, doctor discovery, and appointment scheduling to WhatsApp for rural and underserved communities. AI interprets text or voice symptoms to match patients with relevant medical specialists.</p>
+                <p>Patients select available appointment slots, request remote consultation calls, and exchange medical records and prescriptions with doctors, helping reduce travel for initial consultations.</p>
+                <ul class="project-tech"><li>WhatsApp integration</li><li>AI symptom understanding</li><li>Doctor matching</li><li>Appointment scheduling</li><li>Teleconsultation</li></ul>
+              </div>
+              <div class="consultation-visual" role="group" aria-label="Patient-to-doctor consultation workflow">
+                <p class="consultation-caption">Care, connected through WhatsApp</p>
+                <ol class="consultation-flow">
+                  <li><span class="consultation-step">01</span><div><strong>Message &amp; register</strong><span>Identify returning patients or guide new registration</span></div></li>
+                  <li><span class="consultation-step">02</span><div><strong>Understand symptoms</strong><span>AI interprets text or voice and identifies a specialty</span></div></li>
+                  <li><span class="consultation-step">03</span><div><strong>Match &amp; schedule</strong><span>Choose a suitable doctor and an available slot</span></div></li>
+                  <li><span class="consultation-step">04</span><div><strong>Connect with a doctor</strong><span>Request a remote consultation call</span></div></li>
+                </ol>
+                <div class="consultation-exchange"><span>Patient</span><span aria-hidden="true">&harr;</span><span>Doctor</span><p>Two-way sharing of records, reports &amp; prescriptions</p></div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -195,7 +215,11 @@
       <div class="container contact-panel" data-reveal data-spotlight>
         <div class="contact-copy"><p class="section-kicker"><span>06</span> Contact</p><h2>Have an ambitious AI problem?</h2><p>Let&#8217;s turn it into a system people can trust and use.</p></div>
         <a class="contact-action" href="mailto:rohandhunde5@gmail.com"><span>rohandhunde5@gmail.com</span><strong aria-hidden="true">↗</strong></a>
-        <div class="footer-links"><a href="tel:+919588689602">+91 95886 89602</a><a href="https://www.linkedin.com/in/rohandhunde/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/rohandhunde?tab=repositories" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+        <div class="footer-links">
+          <a class="contact-glass-link" href="tel:+919588689602"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.79a2 2 0 0 1-.45 2.11L8.08 9.89a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.89.33 1.83.56 2.79.69A2 2 0 0 1 22 16.92Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>+91 95886 89602</span></a>
+          <a class="contact-glass-link" href="https://www.linkedin.com/in/rohandhunde/" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.46 7.89a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.29 10.86H15.8V14.1c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.51V9.2h2.83v1.3h.04c.39-.74 1.36-1.52 2.79-1.52 2.98 0 3.58 1.96 3.58 4.51v5.26Z"/></svg><span>LinkedIn</span><span class="contact-link-arrow" aria-hidden="true">&#8599;</span></a>
+          <a class="contact-glass-link" href="https://github.com/rohandhunde?tab=repositories" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.14c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.95.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.16 1.18a11 11 0 0 1 5.75 0c2.19-1.49 3.15-1.18 3.15-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.4-5.26 5.68.42.36.78 1.06.78 2.13v3.16c0 .31.21.68.79.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg><span>GitHub</span><span class="contact-link-arrow" aria-hidden="true">&#8599;</span></a>
+        </div>
       </div>
       <div class="container footer-bottom"><a class="footer-brand" href="#top">RD<span>.</span></a><p>© <span id="year"></span> Rohan Dhunde</p><a href="#top">Back to top ↑</a></div>
     </footer>
