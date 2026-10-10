@@ -1,0 +1,17 @@
+{
+  "name": "rohan-dhunde-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Rohan Dhunde - AI/ML Engineer",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
